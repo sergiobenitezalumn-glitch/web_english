@@ -13,5 +13,10 @@ namespace web_cl2vf
         {
 
         }
+
+        protected void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

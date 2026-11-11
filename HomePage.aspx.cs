@@ -26,5 +26,10 @@ namespace web_cl2vf
         {
 
         }
+
+        protected void Unnamed1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
