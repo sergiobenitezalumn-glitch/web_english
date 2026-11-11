@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="web_cl2vf.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="web_cl2vf.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -23,8 +23,7 @@
         </p>
         <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="OK" Width="188px" />
         <p>
-            No tienes cuenta?<asp:HyperLink ID="HyperLink1" runat="server">Registrate aquí</asp:HyperLink>
-        </p>
+            &nbsp;</p>
     </form>
 
 </body>

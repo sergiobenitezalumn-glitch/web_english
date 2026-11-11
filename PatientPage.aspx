@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CreateUser.aspx.cs" Inherits="web_cl2vf.WebForm2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PatientPage.aspx.cs" Inherits="web_cl2vf.WebForm2" %>
 
 <!DOCTYPE html>
 
@@ -15,19 +15,13 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            Please, sign up for your new account:</div>
+        </div>
         <p>
-            Username:
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-        </p>
+            &nbsp;</p>
         <p>
-            Pasword:
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-        </p>
+            &nbsp;</p>
     </form>
     <p>
-        <select id="Select1" name="D1">
-            <option></option>
-        </select></p>
+        &nbsp;</p>
 </body>
 </html>

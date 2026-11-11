@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SecuredPage.aspx.cs" Inherits="web_cl2vf.WebForm5" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="web_cl2vf.WebForm5" %>
 
 <!DOCTYPE html>
 

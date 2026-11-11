@@ -15,11 +15,15 @@ namespace web_cl2vf
 
 
         }
-
         protected void Button2_Click(object sender, EventArgs e)
         {
 
 
+
+        }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
