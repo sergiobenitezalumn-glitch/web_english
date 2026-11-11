@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CreateUser.aspx.cs" Inherits="web_cl2vf.WebForm2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DoctorPage.aspx.cs" Inherits="web_cl2vf.WebForm3" %>
 
 <!DOCTYPE html>
 
