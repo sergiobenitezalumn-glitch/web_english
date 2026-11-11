@@ -11,19 +11,24 @@
     
     <form id="form1" runat="server">
     
-    <h1>Login</h1>
+        <header>
+            <nav id="nav-head">
+                <img src="https://ximg.es/200/ccc/000" />
+                <asp:Button class="btn-login" runat="server" Text="Login" />
+            </nav>
+        </header>
 
-        <p>
-            Username pasword:
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-        </p>
-        <p>
-            Pasword:
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-        </p>
-        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="OK" Width="188px" />
-        <p>
-            &nbsp;</p>
+        <h1>Doctor's House</h1>
+
+        <h2>Welcome to the Doctor's House</h2>
+
+        <p>Welcome to the Doctor's House! We are dedicated to providing the best healthcare services to our patients.</p>
+
+
+        <p>We hope you find the information you need and that you feel welcome to explore our services.</p>
+    
+    
+    
     </form>
 
 </body>

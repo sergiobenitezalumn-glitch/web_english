@@ -13,15 +13,14 @@
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-        <p>
-            &nbsp;</p>
-        <p>
-            &nbsp;</p>
-    </form>
-    <p>
-        &nbsp;</p>
+    
+    <header>
+        <nav id="nav-head">
+            <img src="https://ximg.es/200/ccc/000" />
+            <asp:Button class="btn-login" runat="server" Text="Login" />
+        </nav>
+    </header>
+
+
 </body>
 </html>

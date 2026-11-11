@@ -9,8 +9,26 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
+        
+        <header>
+            <nav id="nav-head">
+                <img src="https://ximg.es/200/ccc/000" />
+                <asp:Button class="btn-login" runat="server" Text="Login" />
+            </nav>
+        </header>
+
+        <h1>Login</h1>
+
+        <p>Please enter your credentials to log in.</p>
+
+        <p>Username:</p>
+        <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
+        <br />
+        <p>Password:</p>
+        <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
+        <br />
+        <asp:Button ID="btnLogin" runat="server" Text="Login" />
+
     </form>
 </body>
 </html>
