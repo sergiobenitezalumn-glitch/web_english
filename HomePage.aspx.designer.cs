@@ -11,7 +11,7 @@ namespace web_cl2vf
 {
 
 
-    public partial class WebForm1
+    public partial class HomePage
     {
 
         /// <summary>

@@ -1,2 +1,102 @@
-﻿body {
+﻿
+/* =========================
+   GENERAL
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #263746;
+    background-color: #ffffff;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+#nav-head {
+    height: 85px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+    #nav-head img {
+        width: 65px;
+        height: 65px;
+        object-fit: contain;
+    }
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn-login,
+.btn-main {
+    background-color: #168aad;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .btn-login:hover,
+    .btn-main:hover {
+        background-color: #126782;
+    }
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #173b50;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.footer-content p {
+    color: #c5d5df;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+/* =========================
+   RESPONSIVE GENERAL
+========================= */
+
+@media (max-width: 768px) {
+
+    #nav-head {
+        padding: 0 20px;
+    }
+
+        #nav-head img {
+            width: 55px;
+            height: 55px;
+        }
 }

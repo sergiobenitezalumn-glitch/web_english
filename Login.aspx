@@ -11,7 +11,10 @@
     <form id="form1" runat="server">
         
         <header>
-            5</header>
+            <nav id="nav-head">
+                <img src="https://ximg.es/200/ccc/000" />
+                </nav>
+        </header>
 
         <h1>Login</h1>
 

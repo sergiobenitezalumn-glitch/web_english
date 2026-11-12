@@ -12,7 +12,11 @@
     <header>
         <nav id="nav-head">
             <img src="https://ximg.es/200/ccc/000" />
+<<<<<<< HEAD
             </nav>
+=======
+        </nav>
+>>>>>>> b89bb0897986741b3e684f029edaebd697aaee25
     </header>
 
 
