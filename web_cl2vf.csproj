@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Content\HomePage.css" />
+    <Content Include="Content\Login.css" />
     <Content Include="DoctorPage.aspx" />
     <Content Include="Hero.aspx" />
     <Content Include="PatientPage.aspx" />
