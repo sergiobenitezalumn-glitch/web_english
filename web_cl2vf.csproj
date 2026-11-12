@@ -75,9 +75,11 @@
     <Content Include="PatientPage.aspx" />
     <Content Include="Web.config" />
     <Content Include="Login.aspx" />
+    <Content Include="UnsecuredPage.aspx" />
     <Content Include="AdminPage.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Users.cs" />
     <Compile Include="DoctorPage.aspx.cs">
       <DependentUpon>DoctorPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

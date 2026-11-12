@@ -14,6 +14,8 @@
         <nav id="nav-head">
             <img src="https://ximg.es/200/ccc/000" />
         </nav>
+        </nav>
+        </nav>
     </header>
 
 
