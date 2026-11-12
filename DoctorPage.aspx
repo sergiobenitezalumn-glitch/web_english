@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DoctorPage.aspx.cs" Inherits="web_cl2vf.WebForm3" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DoctorPage.aspx.cs" Inherits="web_cl2vf.DoctorPage" %>
 
 <!DOCTYPE html>
 
@@ -8,6 +8,7 @@
     <title></title>
 </head>
 <body>
+<<<<<<< HEAD
         
     <header>
         <nav id="nav-head">
@@ -20,5 +21,11 @@
     </header>
 
 
+=======
+    <form id="form1" runat="server">
+        <div>
+        </div>
+    </form>
+>>>>>>> e1729b603182f99941da99eb447cf53e752d883e
 </body>
 </html>
