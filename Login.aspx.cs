@@ -7,9 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace web_cl2vf
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class WebForm5 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void txtUsername_TextChanged(object sender, EventArgs e)
         {
 
         }
