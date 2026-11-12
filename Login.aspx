@@ -11,11 +11,7 @@
     <form id="form1" runat="server">
         
         <header>
-            <nav id="nav-head">
-                <img src="https://ximg.es/200/ccc/000" />
-                <asp:Button class="btn-login" runat="server" Text="Login" />
-            </nav>
-        </header>
+            5</header>
 
         <h1>Login</h1>
 
@@ -27,7 +23,7 @@
         <p>Password:</p>
         <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
         <br />
-        <asp:Button ID="btnLogin" runat="server" Text="Login" />
+        <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click"/>
 
     </form>
 </body>

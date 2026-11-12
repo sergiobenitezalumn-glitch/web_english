@@ -70,12 +70,12 @@
     <Content Include="Content\Site.css" />
     <Content Include="Web.config" />
     <Content Include="Login.aspx" />
-    <Content Include="CreateUser.aspx" />
     <Content Include="UnsecuredPage.aspx" />
     <Content Include="AdminPage.aspx" />
     <Content Include="SecuredPage.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -83,13 +83,6 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="CreateUser.aspx.cs">
-      <DependentUpon>CreateUser.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CreateUser.aspx.designer.cs">
-      <DependentUpon>CreateUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="UnsecuredPage.aspx.cs">
       <DependentUpon>UnsecuredPage.aspx</DependentUpon>

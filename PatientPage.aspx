@@ -17,8 +17,7 @@
     <header>
         <nav id="nav-head">
             <img src="https://ximg.es/200/ccc/000" />
-            <asp:Button class="btn-login" runat="server" Text="Login" />
-        </nav>
+            </nav>
     </header>
 
 
