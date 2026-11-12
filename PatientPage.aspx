@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PatientPage.aspx.cs" Inherits="web_cl2vf.WebForm2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PatientPage.aspx.cs" Inherits="web_cl2vf.PatientPage" %>
 
 <!DOCTYPE html>
 
@@ -6,20 +6,11 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <style type="text/css">
-        #Select1 {
-            width: 353px;
-        }
-    </style>
 </head>
 <body>
-    
-    <header>
-        <nav id="nav-head">
-            <img src="https://ximg.es/200/ccc/000" />
-            </nav>
-    </header>
-
-
+    <form id="form1" runat="server">
+        <div>
+        </div>
+    </form>
 </body>
 </html>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DoctorPage.aspx.cs" Inherits="web_cl2vf.WebForm3" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DoctorPage.aspx.cs" Inherits="web_cl2vf.DoctorPage" %>
 
 <!DOCTYPE html>
 
@@ -8,13 +8,9 @@
     <title></title>
 </head>
 <body>
-        
-    <header>
-        <nav id="nav-head">
-            <img src="https://ximg.es/200/ccc/000" />
-        </nav>
-    </header>
-
-
+    <form id="form1" runat="server">
+        <div>
+        </div>
+    </form>
 </body>
 </html>
