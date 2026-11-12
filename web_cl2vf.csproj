@@ -68,12 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Site.css" />
+    <Content Include="Content\HomePage.css" />
     <Content Include="Web.config" />
     <Content Include="Login.aspx" />
-    <Content Include="CreateUser.aspx" />
-    <Content Include="UnsecuredPage.aspx" />
     <Content Include="AdminPage.aspx" />
-    <Content Include="SecuredPage.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,20 +82,6 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CreateUser.aspx.cs">
-      <DependentUpon>CreateUser.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CreateUser.aspx.designer.cs">
-      <DependentUpon>CreateUser.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="UnsecuredPage.aspx.cs">
-      <DependentUpon>UnsecuredPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UnsecuredPage.aspx.designer.cs">
-      <DependentUpon>UnsecuredPage.aspx</DependentUpon>
-    </Compile>
     <Compile Include="AdminPage.aspx.cs">
       <DependentUpon>AdminPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -105,15 +89,9 @@
     <Compile Include="AdminPage.aspx.designer.cs">
       <DependentUpon>AdminPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SecuredPage.aspx.cs">
-      <DependentUpon>SecuredPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SecuredPage.aspx.designer.cs">
-      <DependentUpon>SecuredPage.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\DrHouseBBDD.db" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
