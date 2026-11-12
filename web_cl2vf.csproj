@@ -69,7 +69,6 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Content\HomePage.css" />
-    <Content Include="Content\Login.css" />
     <Content Include="DoctorPage.aspx" />
     <Content Include="Hero.aspx" />
     <Content Include="PatientPage.aspx" />
@@ -79,6 +78,7 @@
     <Content Include="AdminPage.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\MedicalSession.cs" />
     <Compile Include="Models\Users.cs" />
     <Compile Include="DoctorPage.aspx.cs">
       <DependentUpon>DoctorPage.aspx</DependentUpon>
