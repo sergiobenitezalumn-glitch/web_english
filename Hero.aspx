@@ -21,7 +21,7 @@
             <nav id="nav-head">
                 <div class="logo">
                     <a href="Hero.aspx">
-                        <img src="https://ximg.es/200/ccc/000" alt="Doctor's House Logo" />
+                        <img src="img/logo2.png" alt="Doctor's House Logo" />
                     </a>
                     <span>Doctor's House</span>
                 </div>
