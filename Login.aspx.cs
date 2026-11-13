@@ -9,7 +9,7 @@ using System.Data.SQLite;
 
 namespace web_cl2vf
 {
-    public partial class WebForm5 : System.Web.UI.Page
+    public partial class Login : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
