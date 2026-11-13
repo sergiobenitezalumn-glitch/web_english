@@ -1,5 +1,4 @@
-﻿
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AdminPage.aspx.cs" Inherits="web_cl2vf.AdminPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AdminPage.aspx.cs" Inherits="web_cl2vf.AdminPage" %>
 
 <!DOCTYPE html>
 
@@ -29,8 +28,12 @@
 
                 <div class="admin-info">
                     <span>Administrator</span>
+<<<<<<< HEAD
                     <asp:Button ID="btnLogout" runat="server"
                         Text="Log out" CssClass="btn-login" />
+=======
+                    <asp:Button ID="btnLogout" runat="server" Text="Logout" CssClass="btn-login" OnClick="btnLogout_Click" />
+>>>>>>> ecc290a657a4766be8e6f1cc91f7918ad22ad519
                 </div>
 
             </nav>
@@ -109,7 +112,7 @@
                     <div class="form-buttons">
 
                         <asp:Button ID="btnAddDoctor" runat="server"
-                            Text="Save Doctor" CssClass="btn-main" />
+                            Text="Save Doctor" CssClass="btn-main" OnClick="btnAddDoctor_Click" />
 
                         <asp:Button ID="btnCancelDoctor" runat="server"
                             Text="Clear" CssClass="btn-secondary"
@@ -124,12 +127,7 @@
 
                     <h3>Registered Doctors</h3>
 
-                    <asp:GridView ID="gvDoctors" runat="server"
-                        CssClass="data-table"
-                        AutoGenerateColumns="False"
-                        DataKeyNames="Id"
-                        EmptyDataText="No doctors registered."
-                        GridLines="None">
+                    <asp:GridView ID="gvDoctors" runat="server" CssClass="data-table" AutoGenerateColumns="False" DataKeyNames="Id" EmptyDataText="No doctors registered." GridLines="None" OnRowCommand="gvDoctors_RowCommand">
 
                         <Columns>
 
@@ -144,6 +142,7 @@
 
                             <asp:TemplateField HeaderText="Actions">
                                 <ItemTemplate>
+                                    
                                     <asp:Button ID="btnEditDoctor" runat="server"
                                         Text="Edit" CssClass="btn-edit"
                                         CommandName="EditDoctor"
@@ -257,7 +256,7 @@
                     <div class="form-buttons">
 
                         <asp:Button ID="btnAddPatient" runat="server"
-                            Text="Save Patient" CssClass="btn-main" />
+                            Text="Save Patient" CssClass="btn-main" OnClick="btnAddPatient_Click" />
 
                         <asp:Button ID="btnCancelPatient" runat="server"
                             Text="Clear" CssClass="btn-secondary"
@@ -272,12 +271,7 @@
 
                     <h3>Registered Patients</h3>
 
-                    <asp:GridView ID="gvPatients" runat="server"
-                        CssClass="data-table"
-                        AutoGenerateColumns="False"
-                        DataKeyNames="Id"
-                        EmptyDataText="No patients registered."
-                        GridLines="None">
+                    <asp:GridView ID="gvPatients" runat="server" CssClass="data-table" AutoGenerateColumns="False" DataKeyNames="Id" EmptyDataText="No patients registered." GridLines="None" OnRowCommand="gvPatients_RowCommand">
 
                         <Columns>
 
@@ -298,7 +292,7 @@
 
                             <asp:TemplateField HeaderText="Actions">
                                 <ItemTemplate>
-
+                                    
                                     <asp:Button ID="btnEditPatient" runat="server"
                                         Text="Edit" CssClass="btn-edit"
                                         CommandName="EditPatient"
