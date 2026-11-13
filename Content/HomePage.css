@@ -1,7 +1,4 @@
 ﻿
-/* ==============================
-   HERO SECTION
-============================== */
 
 .hero {
     min-height: 520px;
@@ -42,9 +39,7 @@
         border-radius: 15px;
     }
 
-/* ==============================
-   SERVICES SECTION
-============================== */
+
 
 .services {
     padding: 80px 30px;
@@ -101,9 +96,7 @@
     line-height: 1.6;
 }
 
-/* ==============================
-   ABOUT SECTION
-============================== */
+
 
 .about {
     background-color: #f5fafc;
@@ -141,9 +134,7 @@
         margin-bottom: 15px;
     }
 
-/* ==============================
-   RESPONSIVE HERO
-============================== */
+
 
 @media (max-width: 768px) {
 

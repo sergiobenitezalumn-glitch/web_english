@@ -13,7 +13,7 @@
 <body>
     <form id="form1" runat="server">
 
-        <!-- HEADER -->
+
         <header>
             <nav id="nav-head">
 
@@ -40,7 +40,7 @@
                 <p>Manage your patients and their medical records.</p>
             </div>
 
-            <!-- MEDICAL RECORDS -->
+
             <section class="management-section">
 
                 <div class="section-header">
@@ -48,7 +48,7 @@
                     <p>View and manage your patients' medical sessions.</p>
                 </div>
 
-                <!-- FORM -->
+
                 <div class="form-card">
                     <h3>Add / Edit Medical Record</h3>
 
@@ -88,14 +88,15 @@
 
                     <div class="form-buttons">
                         <asp:Button ID="btnSaveRecord" runat="server"
-                            Text="Save Record" CssClass="btn-main" />
+                            Text="Save Record" CssClass="btn-main"
+                            OnClick="btnSaveRecord_Click"/>
 
                         <asp:Button ID="btnCancelRecord" runat="server"
                             Text="Cancel" CssClass="btn-secondary" />
                     </div>
                 </div>
 
-                <!-- TABLE -->
+
                 <div class="table-card">
                     <h3>My Patients' Medical Records</h3>
 
