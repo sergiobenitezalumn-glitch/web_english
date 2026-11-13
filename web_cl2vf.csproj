@@ -71,6 +71,7 @@
     <Content Include="Content\HomePage.css" />
     <Content Include="Content\Login.css" />
     <Content Include="Content\AdminPage.css" />
+    <Content Include="Content\DoctorPage.css" />
     <Content Include="DoctorPage.aspx" />
     <Content Include="Hero.aspx" />
     <Content Include="PatientPage.aspx" />
