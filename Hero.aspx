@@ -20,11 +20,13 @@
         <header>
             <nav id="nav-head">
                 <div class="logo">
-                    <img src="https://ximg.es/200/ccc/000" alt="Doctor's House Logo" />
+                    <a href="Hero.aspx">
+                        <img src="https://ximg.es/200/ccc/000" alt="Doctor's House Logo" />
+                    </a>
                     <span>Doctor's House</span>
                 </div>
 
-                <asp:Button href="login.aspx" ID="Button1" runat="server" Text="Login" CssClass="btn-login" />
+                <asp:Button ID="Button1" runat="server" Text="Login" CssClass="btn-login" OnClick="BtnHero_ToLogin_Click" />
             </nav>
         </header>
 
@@ -42,9 +44,7 @@
                         comfort and well-being.
                     </p>
 
-                    <asp:Button ID="Button2" runat="server"
-                        Text="Access your account"
-                        CssClass="btn-main" />
+                    <asp:Button ID="Button2" runat="server" Text="Access your account" CssClass="btn-main" OnClick="BtnHero_ToLogin_Click"/>
                 </div>
 
                 <div class="hero-image">

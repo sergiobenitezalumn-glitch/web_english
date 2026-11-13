@@ -13,5 +13,13 @@ namespace web_cl2vf
         {
 
         }
+
+        protected void btnLogout_Click(object sender, EventArgs e)
+        {
+            // Clear the session and redirect to the login page
+            Session.Clear();
+
+            Response.Redirect("Login.aspx");
+        }
     }
 }

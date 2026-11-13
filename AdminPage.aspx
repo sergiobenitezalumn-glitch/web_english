@@ -21,14 +21,16 @@
             <nav id="nav-head">
 
                 <div class="logo">
-                    <img src="https://ximg.es/200/ccc/000" alt="Logo" />
-                    <span>Doctor's House</span>
+                    <a href="Hero">
+                        <img src="https://ximg.es/200/ccc/000" alt="Logo" />
+                    </a>
+                        <span>Doctor's House</span>
                 </div>
 
                 <div class="admin-info">
                     <span>Administrator</span>
                     <asp:Button ID="btnLogout" runat="server"
-                        Text="Logout" CssClass="btn-login" />
+                        Text="Log out" CssClass="btn-login" />
                 </div>
 
             </nav>

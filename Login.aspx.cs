@@ -47,9 +47,9 @@ namespace web_cl2vf
                 Session["UserRole"] = loggedInUser.Role;
                 Session["UserId"] = loggedInUser.Id;
 
-                if (loggedInUser.Role == "Admin") Response.Redirect("Admin.aspx");
-                if (loggedInUser.Role == "Doctor") Response.Redirect("Doctor.aspx");
-                if (loggedInUser.Role == "Patient") Response.Redirect("Patient.aspx");
+                if (loggedInUser.Role == "Admin") Response.Redirect("AdminPage.aspx");
+                if (loggedInUser.Role == "Doctor") Response.Redirect("DoctorPage.aspx");
+                if (loggedInUser.Role == "Patient") Response.Redirect("PatientPage.aspx");
             }
 
             conn.Close();

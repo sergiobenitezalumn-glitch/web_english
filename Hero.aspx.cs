@@ -13,5 +13,10 @@ namespace web_cl2vf
         {
 
         }
+
+        protected void BtnHero_ToLogin_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx");
+        }
     }
 }

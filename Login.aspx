@@ -15,7 +15,9 @@
         
         <header>
             <nav id="nav-head">
-                <img src="https://ximg.es/200/ccc/000" />
+                <a href="Hero.aspx">
+                    <img src="https://ximg.es/200/ccc/000" alt="Doctor's House Logo" />
+                </a>
                 </nav>
         </header>
             

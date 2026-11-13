@@ -14,11 +14,24 @@
     <form id="form1" runat="server">
 
         <!-- HEADER -->
-        <header id="nav-head">
-            <div class="logo">DOCTOR'S HOUSE</div>
-            <asp:Button ID="btnLogout" runat="server"
-                Text="Log out" CssClass="btn-login" />
-        </header>
+            <header>
+                <nav id="nav-head">
+
+                    <div class="logo">
+                        <a href="Hero.aspx">
+                            <img src="https://ximg.es/200/ccc/000" alt="Logo" />
+                        </a>
+                            <span>Doctor's House</span>
+                    </div>
+
+                    <div class="admin-info">
+                        <span>Patient </span>
+                        <asp:Button ID="btnLogout" runat="server"
+                            Text="Log out" CssClass="btn-login" OnClick="btnLogout_Click" />
+                    </div>
+
+                </nav>
+            </header>
 
         <main class="patient-container">
 
