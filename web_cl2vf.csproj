@@ -76,6 +76,8 @@
     <Content Include="Content\DoctorPage.css" />
     <Content Include="DoctorPage.aspx" />
     <Content Include="Hero.aspx" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logo2.png" />
     <Content Include="PatientPage.aspx" />
     <Content Include="Web.config" />
     <Content Include="Login.aspx" />

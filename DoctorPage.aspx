@@ -19,7 +19,7 @@
 
                 <div class="logo">
                     <a href="Hero.aspx">
-                        <img src="https://ximg.es/200/ccc/000" alt="Logo" />
+                        <img src="img/logo2.png" alt="Logo" />
                     </a>
                         <span>Doctor's House</span>
                 </div>

@@ -20,8 +20,8 @@
             <nav id="nav-head">
 
                 <div class="logo">
-                    <a href="Hero">
-                        <img src="https://ximg.es/200/ccc/000" alt="Logo" />
+                    <a href="Hero.aspx">
+                        <img src="img/logo2.png" alt="Logo" />
                     </a>
                         <span>Doctor's House</span>
                 </div>
