@@ -20,6 +20,7 @@ namespace web_cl2vf
         {
 
         }
+
         protected void btnLogin_Click(object sender, EventArgs e)
         {
             string connectionString = @"Data Source=|DataDirectory|\Drhousebbdd.db;Version=3;";
@@ -33,6 +34,7 @@ namespace web_cl2vf
             cmd.Parameters.AddWithValue("@pass", txtPassword.Text);
 
             SQLiteDataReader reader = cmd.ExecuteReader();
+            string redirectUrl = "";
 
             if (reader.Read())
             {
@@ -47,12 +49,18 @@ namespace web_cl2vf
                 Session["UserRole"] = loggedInUser.Role;
                 Session["UserId"] = loggedInUser.Id;
 
-                if (loggedInUser.Role == "Admin") Response.Redirect("AdminPage.aspx");
-                if (loggedInUser.Role == "Doctor") Response.Redirect("DoctorPage.aspx");
-                if (loggedInUser.Role == "Patient") Response.Redirect("PatientPage.aspx");
+                if (loggedInUser.Role == "Admin") redirectUrl = "AdminPage.aspx";
+                if (loggedInUser.Role == "Doctor") redirectUrl = "DoctorPage.aspx";
+                if (loggedInUser.Role == "Patient") redirectUrl = "PatientPage.aspx";
             }
 
+            reader.Close();
             conn.Close();
+
+            if (redirectUrl != "")
+            {
+                Response.Redirect(redirectUrl);
+            }
         }
     }
 }
