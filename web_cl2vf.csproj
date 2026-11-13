@@ -67,14 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\PatientPage.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\HomePage.css" />
-<<<<<<< HEAD
     <Content Include="Content\Login.css" />
     <Content Include="Content\AdminPage.css" />
     <Content Include="Content\DoctorPage.css" />
-=======
->>>>>>> cf5f5a97609e68928310ccd1d8505cd85a1d19b1
     <Content Include="DoctorPage.aspx" />
     <Content Include="Hero.aspx" />
     <Content Include="PatientPage.aspx" />
@@ -83,11 +81,8 @@
     <Content Include="AdminPage.aspx" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
     <Compile Include="Models\MedicalSession.cs" />
     <Compile Include="Models\Users.cs" />
->>>>>>> cf5f5a97609e68928310ccd1d8505cd85a1d19b1
     <Compile Include="DoctorPage.aspx.cs">
       <DependentUpon>DoctorPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
