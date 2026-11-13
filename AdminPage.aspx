@@ -28,12 +28,7 @@
 
                 <div class="admin-info">
                     <span>Administrator</span>
-<<<<<<< HEAD
-                    <asp:Button ID="btnLogout" runat="server"
-                        Text="Log out" CssClass="btn-login" />
-=======
                     <asp:Button ID="btnLogout" runat="server" Text="Logout" CssClass="btn-login" OnClick="btnLogout_Click" />
->>>>>>> ecc290a657a4766be8e6f1cc91f7918ad22ad519
                 </div>
 
             </nav>
