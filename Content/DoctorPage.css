@@ -1,2 +1,137 @@
-﻿body {
+﻿
+.doctor-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 30px;
+}
+
+.doctor-info {
+    margin-bottom: 40px;
+}
+
+.doctor-title {
+    font-size: 32px;
+    color: #173b57;
+    margin-bottom: 10px;
+}
+
+.management-section {
+    margin-bottom: 50px;
+}
+
+.section-header {
+    margin-bottom: 25px;
+}
+
+    .section-header h2 {
+        color: #173b57;
+        font-size: 25px;
+    }
+
+.form-card,
+.table-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+
+    .form-card h3,
+    .table-card h3 {
+        color: #173b57;
+        margin-bottom: 25px;
+    }
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+    .form-group label {
+        font-weight: bold;
+        color: #333;
+    }
+
+.form-input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.full-width {
+    grid-column: 1 / -1;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.btn-secondary {
+    background: #e5e9ed;
+    color: #173b57;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.table-card {
+    overflow-x: auto;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+    .data-table th {
+        background: #eaf2f7;
+        color: #173b57;
+        padding: 14px;
+    }
+
+    .data-table td {
+        padding: 14px;
+        border-bottom: 1px solid #eee;
+    }
+
+.btn-edit {
+    color: #1976d2;
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+.btn-delete {
+    color: #d32f2f;
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .full-width {
+        grid-column: auto;
+    }
+
+    .form-card,
+    .table-card {
+        padding: 18px;
+    }
 }

@@ -1,0 +1,132 @@
+﻿.patient-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 30px;
+}
+
+.patient-info {
+    margin-bottom: 40px;
+}
+
+.patient-title {
+    font-size: 32px;
+    color: #173b57;
+    margin-bottom: 10px;
+}
+
+.patient-info p {
+    color: #526575;
+}
+
+.management-section {
+    margin-bottom: 50px;
+}
+
+.section-header {
+    margin-bottom: 25px;
+}
+
+    .section-header h2 {
+        color: #173b57;
+        font-size: 25px;
+        margin-bottom: 6px;
+    }
+
+    .section-header p {
+        color: #71808c;
+        font-size: 15px;
+    }
+
+.info-card,
+.table-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 16px 18px;
+    background-color: #f5fafc;
+    border: 1px solid #e1edf1;
+    border-radius: 8px;
+}
+
+.info-label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #168aad;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.info-value {
+    font-size: 16px;
+    color: #263746;
+    word-break: break-word;
+}
+
+.table-card {
+    overflow-x: auto;
+}
+
+    .table-card h3 {
+        color: #173b57;
+        margin-bottom: 25px;
+    }
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+    .data-table th {
+        background: #eaf2f7;
+        color: #173b57;
+        padding: 14px;
+    }
+
+    .data-table td {
+        padding: 14px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .data-table tr:hover td {
+        background-color: #f5fafc;
+    }
+
+@media (max-width: 900px) {
+    .info-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .patient-container {
+        padding: 0 20px;
+    }
+
+    .patient-title {
+        font-size: 26px;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .info-card,
+    .table-card {
+        padding: 18px;
+    }
+}
