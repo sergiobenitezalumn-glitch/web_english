@@ -5,9 +5,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+
+
 namespace web_cl2vf
 {
-    public partial class WebForm4 : System.Web.UI.Page
+    public partial class AdminPage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
