@@ -13,7 +13,7 @@
 <body>
     <form id="form1" runat="server">
 
-        <!-- HEADER -->
+
             <header>
                 <nav id="nav-head">
 
@@ -42,7 +42,7 @@
                 <p>Here you can check your personal information and your medical records.</p>
             </div>
 
-            <!-- PERSONAL INFORMATION -->
+
             <section class="management-section">
 
                 <div class="section-header">
@@ -88,7 +88,7 @@
 
             </section>
 
-            <!-- MEDICAL RECORDS -->
+
             <section class="management-section">
 
                 <div class="section-header">

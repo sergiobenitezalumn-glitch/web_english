@@ -1,7 +1,4 @@
 ﻿
-/* ==============================
-   ADMIN PAGE
-============================== */
 
 .admin-container {
     max-width: 1200px;
@@ -9,9 +6,7 @@
     padding: 45px 30px 70px;
 }
 
-/* ==============================
-   HEADER
-============================== */
+
 
 .admin-info {
     display: flex;
@@ -25,9 +20,7 @@
         font-size: 15px;
     }
 
-/* ==============================
-   PAGE TITLE
-============================== */
+
 
 .admin-title {
     margin-bottom: 45px;
@@ -44,9 +37,7 @@
         font-size: 16px;
     }
 
-/* ==============================
-   MANAGEMENT SECTIONS
-============================== */
+
 
 .management-section {
     margin-bottom: 60px;
@@ -70,9 +61,7 @@
         font-size: 15px;
     }
 
-/* ==============================
-   FORMS
-============================== */
+
 
 .form-card {
     background-color: #f5fafc;
@@ -124,9 +113,7 @@
         box-shadow: 0 0 0 2px rgba(22, 138, 173, 0.12);
     }
 
-/* ==============================
-   FORM BUTTONS
-============================== */
+
 
 .form-buttons {
     display: flex;
@@ -149,9 +136,7 @@
         background-color: #cbdde4;
     }
 
-/* ==============================
-   TABLES
-============================== */
+
 
 .table-card {
     background-color: white;
@@ -191,9 +176,7 @@
         border-bottom: none;
     }
 
-/* ==============================
-   TABLE ACTION BUTTONS
-============================== */
+
 
 .btn-edit,
 .btn-delete {
@@ -224,9 +207,7 @@
         background-color: #f8d0d0;
     }
 
-/* ==============================
-   RESPONSIVE
-============================== */
+
 
 @media (max-width: 768px) {
 

@@ -15,7 +15,7 @@
 
     <form id="form1" runat="server">
 
-        <!-- HEADER -->
+
         <header>
             <nav id="nav-head">
 
@@ -36,14 +36,13 @@
 
         <main class="admin-container">
 
-            <!-- PAGE TITLE -->
+
             <section class="admin-title">
                 <h1>Administrator Panel</h1>
                 <p>Manage doctors and patients registered in the healthcare centre.</p>
             </section>
 
 
-            <!-- DOCTORS SECTION -->
             <section class="management-section">
 
                 <div class="section-header">
@@ -53,7 +52,7 @@
                     </div>
                 </div>
 
-                <!-- ADD / EDIT DOCTOR -->
+
                 <div class="form-card">
 
                     <h3>Add / Edit Doctor</h3>
@@ -117,7 +116,7 @@
 
                 </div>
 
-                <!-- DOCTORS TABLE -->
+
                 <div class="table-card">
 
                     <h3>Registered Doctors</h3>
@@ -159,7 +158,7 @@
             </section>
 
 
-            <!-- PATIENTS SECTION -->
+
             <section class="management-section">
 
                 <div class="section-header">
@@ -169,7 +168,7 @@
                     </div>
                 </div>
 
-                <!-- ADD / EDIT PATIENT -->
+
                 <div class="form-card">
 
                     <h3>Add / Edit Patient</h3>
@@ -261,7 +260,7 @@
 
                 </div>
 
-                <!-- PATIENTS TABLE -->
+
                 <div class="table-card">
 
                     <h3>Registered Patients</h3>
@@ -312,7 +311,7 @@
         </main>
 
 
-        <!-- FOOTER -->
+
         <footer>
             <div class="footer-content">
                 <h2>Doctor's House</h2>

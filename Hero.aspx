@@ -16,7 +16,7 @@
 
     <form id="form1" runat="server">
 
-        <!-- HEADER -->
+
         <header>
             <nav id="nav-head">
                 <div class="logo">
@@ -32,7 +32,7 @@
 
         <main>
 
-            <!-- HERO SECTION -->
+
             <section class="hero">
 
                 <div class="hero-text">
@@ -54,7 +54,7 @@
 
             </section>
 
-            <!-- SERVICES SECTION -->
+
             <section class="services">
 
                 <h2>Our services</h2>
@@ -93,7 +93,7 @@
 
             </section>
 
-            <!-- ABOUT SECTION -->
+
             <section class="about">
 
                 <div class="about-image">
@@ -121,7 +121,7 @@
 
         </main>
 
-        <!-- FOOTER -->
+
         <footer>
             <div class="footer-content">
 
